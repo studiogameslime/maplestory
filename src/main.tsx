@@ -14,11 +14,13 @@ import {
   Globe2,
   Menu,
   PanelLeft,
+  Search,
   X,
 } from 'lucide-react'
 import './style.css'
 import { AppProvider, useApp } from './state'
 import { routes } from './navigation'
+import Explorer from './atlas/Explorer'
 import Dashboard from './Dashboard'
 import Market from './Market'
 import Character from './Character'
@@ -49,8 +51,8 @@ function Sidebar({ close }: { close?: () => void }) {
       </div>
       <nav aria-label={t('Main navigation', 'ניווט ראשי')}>
         {[
-          { title: t('Explore', 'גלו'), items: routes.slice(0, 5) },
-          { title: t('Workspace', 'סביבת עבודה'), items: routes.slice(5) },
+          { title: t('Explore', 'גלו'), items: routes.slice(0, 6) },
+          { title: t('Workspace', 'סביבת עבודה'), items: routes.slice(6) },
         ].map(({ title, items }) => (
           <div className="nav-group" key={title}>
             <h2>{title}</h2>
@@ -130,6 +132,14 @@ function App() {
             <strong>{title}</strong>
           </div>
           <div className="top-actions">
+            <Link
+              to="/database"
+              className="global-search"
+              aria-label={t('Search game database', 'חיפוש במאגר המשחק')}
+            >
+              <Search size={16} />
+              <span>{t('Search database', 'חיפוש במאגר')}</span>
+            </Link>
             <span className="world">
               <i />
               Classic World
@@ -159,6 +169,7 @@ function App() {
         <main id="content" tabIndex={-1}>
           <Routes>
             <Route path="/" element={<Dashboard />} />
+            <Route path="/database/:id?" element={<Explorer />} />
             <Route path="/market" element={<Market />} />
             <Route path="/market/:id" element={<Market />} />
             <Route path="/drops" element={<Field key="drops" type="drops" />} />

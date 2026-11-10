@@ -214,6 +214,10 @@ export default function Character() {
               </p>
               <dl className="details">
                 <div>
+                  <dt>{t('Fame', 'תהילה')}</dt>
+                  <dd>{result.fame ?? '—'}</dd>
+                </div>
+                <div>
                   <dt>{t('Provider rank', 'מיקום בדירוג המקור')}</dt>
                   <dd>{result.rank ?? '—'}</dd>
                 </div>

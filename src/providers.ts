@@ -107,6 +107,7 @@ export interface Ranking {
   observedAt: string | null
   fetchedAt: string
   url: string
+  fame: number | null
   rank: number | null
 }
 export class LookupError extends Error {
@@ -128,7 +129,7 @@ export async function lookup(
   )
   url.searchParams.set(
     'fields',
-    'name,level,job,last_checked,profile_url,overall_rank',
+    'name,level,job,last_checked,profile_url,overall_rank,fame',
   )
   const response = await fetch(url, {
     signal,
@@ -165,6 +166,7 @@ export async function lookup(
     name: data.name,
     level: data.level,
     job: data.job ?? null,
+    fame: Number.isInteger(data.fame) ? data.fame : null,
     rank: Number.isInteger(data.overall_rank) ? data.overall_rank : null,
     observedAt:
       data.last_checked && Number.isFinite(Date.parse(data.last_checked))

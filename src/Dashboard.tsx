@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {
   ArrowRight,
+  BookOpen,
   ArrowUpRight,
   ChartNoAxesCombined,
   ChevronRight,
@@ -286,6 +287,14 @@ export default function Dashboard() {
           <Trend listings={items} />
         </div>
       </MarketBoundary>
+      <section className="quick">
+        <div className="section-title">
+          <BookOpen size={18} />
+          <h2>{t('Game database', 'מאגר המשחק')}</h2>
+          <span />
+          <Go to="/database">{t('Search records', 'חיפוש רשומות')}</Go>
+        </div>
+      </section>
       <section className="quick">
         <div className="section-title">
           <h2>{t('Quick access', 'גישה מהירה')}</h2>

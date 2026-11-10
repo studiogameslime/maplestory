@@ -1,5 +1,6 @@
 import {
   LayoutDashboard,
+  LibraryBig,
   Store,
   Gem,
   ScrollText,
@@ -10,6 +11,7 @@ import {
 } from 'lucide-react'
 export const routes = [
   { path: '/', en: 'Dashboard', he: 'לוח בקרה', icon: LayoutDashboard },
+  { path: '/database', en: 'Game database', he: 'מאגר המשחק', icon: LibraryBig },
   { path: '/market', en: 'Market Sniper', he: 'סורק השוק', icon: Store },
   { path: '/drops', en: 'Drop Atlas', he: 'אטלס השלל', icon: Gem },
   { path: '/quests', en: 'Quest Journal', he: 'יומן משימות', icon: ScrollText },

@@ -1,0 +1,542 @@
+[
+  {
+    "title": "Arturo",
+    "kind": "npc",
+    "gameId": "509",
+    "source": "https://mapleclassic.wiki/wiki/Arturo",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/88324",
+    "version": "pre-launch",
+    "updated": "2026-10-08T22:19:30Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {},
+    "links": [
+      {
+        "target": "Red Potion",
+        "kind": "item",
+        "type": "sells",
+        "price": 50,
+        "unit": "mesos/item",
+        "version": "0.9.0"
+      },
+      {
+        "target": "Orange Potion",
+        "kind": "item",
+        "type": "sells",
+        "price": 150,
+        "unit": "mesos/item",
+        "version": "0.9.0"
+      },
+      {
+        "target": "White Potion",
+        "kind": "item",
+        "type": "sells",
+        "price": 350,
+        "unit": "mesos/item",
+        "version": "0.9.0"
+      },
+      {
+        "target": "Blue Potion",
+        "kind": "item",
+        "type": "sells",
+        "price": 220,
+        "unit": "mesos/item",
+        "version": "0.9.0"
+      }
+    ],
+    "recipes": []
+  },
+  {
+    "title": "Blue Potion",
+    "kind": "item",
+    "gameId": "2000003",
+    "category": "Potion",
+    "source": "https://mapleclassic.wiki/wiki/Blue_Potion",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90589",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:28:32Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 22,
+      "MP restored": 200
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Bronze Ore",
+    "kind": "item",
+    "gameId": "4010000",
+    "category": "Ore & Mineral",
+    "source": "https://mapleclassic.wiki/wiki/Bronze_Ore",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90616",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:29:32Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 20
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Brown Kitty",
+    "kind": "item",
+    "gameId": "5000000",
+    "category": "Pet",
+    "source": "https://mapleclassic.wiki/wiki/Brown_Kitty",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/91124",
+    "version": "1.0.0",
+    "updated": "2026-10-28T12:12:19Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {},
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Brown Puppy",
+    "kind": "item",
+    "gameId": "5000001",
+    "category": "Pet",
+    "source": "https://mapleclassic.wiki/wiki/Brown_Puppy",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/91125",
+    "version": "1.0.0",
+    "updated": "2026-10-28T12:12:21Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {},
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Firewood",
+    "kind": "item",
+    "gameId": "4000015",
+    "category": "Monster Drop",
+    "source": "https://mapleclassic.wiki/wiki/Firewood",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/85563",
+    "version": "pre-launch",
+    "updated": "2026-09-04T10:31:00Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 17,
+      "Maximum stack": 200
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Gloves Attack Scroll: Intermediate",
+    "kind": "item",
+    "gameId": "2040801",
+    "category": "Scroll",
+    "source": "https://mapleclassic.wiki/wiki/Gloves_Attack_Scroll%3A_Intermediate",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/85604",
+    "version": "pre-launch",
+    "updated": "2026-09-04T10:31:40Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 1,
+      "Weapon attack bonus": 2,
+      "Scroll success (%)": 60,
+      "Upgrade target category": "Gloves"
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Green Mushroom",
+    "kind": "monster",
+    "gameId": "13",
+    "source": "https://mapleclassic.wiki/wiki/Green_Mushroom",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/89225",
+    "version": "0.9.0",
+    "updated": "2026-10-12T12:19:58Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {},
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Green Mushroom Cap",
+    "kind": "item",
+    "gameId": "4000013",
+    "category": "Monster Drop",
+    "source": "https://mapleclassic.wiki/wiki/Green_Mushroom_Cap",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90756",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:35:22Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 14,
+      "Maximum stack": 200
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "How to Enjoy Mushrooms",
+    "kind": "quest",
+    "gameId": "10211",
+    "source": "https://mapleclassic.wiki/wiki/How_to_Enjoy_Mushrooms",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/89507",
+    "version": "1.0.0",
+    "updated": "2026-10-23T07:15:23Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "Required level": 14,
+      "EXP reward": 535,
+      "Mesos reward": 468
+    },
+    "links": [
+      {
+        "target": "Green Mushroom",
+        "kind": "monster",
+        "type": "requires_kill",
+        "quantity": 30,
+        "version": "1.0.0"
+      },
+      {
+        "target": "Green Mushroom Cap",
+        "kind": "item",
+        "type": "requires_item",
+        "quantity": 15,
+        "version": "1.0.0"
+      },
+      {
+        "target": "Bronze Ore",
+        "kind": "item",
+        "type": "rewards",
+        "quantity": 5,
+        "version": "1.0.0"
+      }
+    ],
+    "recipes": []
+  },
+  {
+    "title": "How to Enjoy Mushrooms Even More",
+    "kind": "quest",
+    "gameId": "10212",
+    "source": "https://mapleclassic.wiki/wiki/How_to_Enjoy_Mushrooms_Even_More",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/89506",
+    "version": "1.0.0",
+    "updated": "2026-10-23T07:15:22Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "Required level": 14,
+      "EXP reward": 535,
+      "Mesos reward": 468
+    },
+    "links": [
+      {
+        "target": "Green Mushroom",
+        "kind": "monster",
+        "type": "requires_kill",
+        "quantity": 30,
+        "version": "1.0.0"
+      },
+      {
+        "target": "Green Mushroom Cap",
+        "kind": "item",
+        "type": "requires_item",
+        "quantity": 15,
+        "version": "1.0.0"
+      },
+      {
+        "target": "Lemon",
+        "kind": "item",
+        "type": "requires_item",
+        "quantity": 1,
+        "version": "1.0.0"
+      },
+      {
+        "target": "Iron Ore",
+        "kind": "item",
+        "type": "rewards",
+        "quantity": 5,
+        "version": "1.0.0"
+      }
+    ],
+    "recipes": []
+  },
+  {
+    "title": "Iron Ore",
+    "kind": "item",
+    "gameId": "4010001",
+    "category": "Ore & Mineral",
+    "source": "https://mapleclassic.wiki/wiki/Iron_Ore",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90787",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:36:32Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 20
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Lemon",
+    "kind": "item",
+    "gameId": "2010005",
+    "category": "Food",
+    "source": "https://mapleclassic.wiki/wiki/Lemon",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90797",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:36:56Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 15,
+      "MP restored": 150
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Orange Potion",
+    "kind": "item",
+    "gameId": "2000001",
+    "category": "Potion",
+    "source": "https://mapleclassic.wiki/wiki/Orange_Potion",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90847",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:38:58Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 15,
+      "HP restored": 250,
+      "Maximum stack": 200
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Pet Equip Speed Scroll: Lesser",
+    "kind": "item",
+    "gameId": "2048000",
+    "category": "Scroll",
+    "source": "https://mapleclassic.wiki/wiki/Pet_Equip_Speed_Scroll%3A_Lesser",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/86065",
+    "version": "pre-launch",
+    "updated": "2026-09-04T10:39:15Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 1,
+      "Speed bonus": 1,
+      "Scroll success (%)": 100
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Pet Food",
+    "kind": "item",
+    "gameId": "2120000",
+    "category": "Pet Food",
+    "source": "https://mapleclassic.wiki/wiki/Pet_Food",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90876",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:40:18Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 15,
+      "Maximum stack": 200
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Processed Wood",
+    "kind": "item",
+    "gameId": "4003001",
+    "category": "Crafting Material",
+    "source": "https://mapleclassic.wiki/wiki/Processed_Wood",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/86109",
+    "version": "pre-launch",
+    "updated": "2026-09-04T10:40:02Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 10
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Red Potion",
+    "kind": "item",
+    "gameId": "2000000",
+    "category": "Potion",
+    "source": "https://mapleclassic.wiki/wiki/Red_Potion",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90912",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:41:58Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 5,
+      "HP restored": 100,
+      "Maximum stack": 200
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Red Ribbon",
+    "kind": "item",
+    "gameId": "1802000",
+    "category": "Cash Hat",
+    "source": "https://mapleclassic.wiki/wiki/Red_Ribbon",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/90913",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:42:09Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "Upgrade slots": 5
+    },
+    "links": [
+      {
+        "target": "Brown Kitty",
+        "kind": "item",
+        "type": "equippable_by",
+        "version": "1.0.0"
+      },
+      {
+        "target": "Brown Puppy",
+        "kind": "item",
+        "type": "equippable_by",
+        "version": "1.0.0"
+      }
+    ],
+    "recipes": []
+  },
+  {
+    "title": "Subi Throwing Stars",
+    "kind": "item",
+    "gameId": "2070000",
+    "category": "Throwing Star",
+    "source": "https://mapleclassic.wiki/wiki/Subi_Throwing_Stars",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/86498",
+    "version": "pre-launch",
+    "updated": "2026-09-04T10:46:42Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 250,
+      "Maximum stack": 500,
+      "Weapon attack bonus": 15,
+      "Required level": 10
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Tree Branch",
+    "kind": "item",
+    "gameId": "4000005",
+    "category": "Monster Drop",
+    "source": "https://mapleclassic.wiki/wiki/Tree_Branch",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/91043",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:47:40Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 5,
+      "Maximum stack": 200
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "White Potion",
+    "kind": "item",
+    "gameId": "2000002",
+    "category": "Potion",
+    "source": "https://mapleclassic.wiki/wiki/White_Potion",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/91066",
+    "version": "1.0.0",
+    "updated": "2026-10-23T09:48:50Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 35,
+      "HP restored": 500
+    },
+    "links": [],
+    "recipes": []
+  },
+  {
+    "title": "Woodcrafting",
+    "kind": "profession",
+    "gameId": "92030000",
+    "source": "https://mapleclassic.wiki/wiki/Woodcrafting",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/91652",
+    "version": "1.0.0",
+    "updated": "2026-10-29T17:00:50Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {},
+    "links": [],
+    "recipes": [
+      {
+        "id": "5",
+        "professionId": "92030000",
+        "level": 1,
+        "cost": 100,
+        "exp": 3,
+        "output": "Processed Wood",
+        "count": 1,
+        "material": "Tree Branch",
+        "quantity": 10,
+        "version": "1.0.0"
+      },
+      {
+        "id": "6",
+        "professionId": "92030000",
+        "level": 2,
+        "cost": 200,
+        "exp": 6,
+        "output": "Processed Wood",
+        "count": 1,
+        "material": "Firewood",
+        "quantity": 5,
+        "version": "1.0.0"
+      }
+    ]
+  },
+  {
+    "title": "Work Gloves",
+    "kind": "item",
+    "gameId": "1082000",
+    "category": "Gloves",
+    "source": "https://mapleclassic.wiki/wiki/Work_Gloves",
+    "upstream": "https://mapleclassic.wiki/wiki/Special:PermanentLink/86671",
+    "version": "pre-launch",
+    "updated": "2026-09-04T10:49:29Z",
+    "fetched": "2026-11-10T16:27:05.573Z",
+    "status": "Community reference",
+    "facts": {
+      "NPC resale (mesos/item)": 1200,
+      "Upgrade slots": 5,
+      "Required level": 10
+    },
+    "links": [],
+    "recipes": []
+  }
+]

@@ -22,6 +22,18 @@ npm run preview
 
 Open the preview in a browser on localhost or serve the build over HTTPS. After the first successful service-worker installation, the dashboard, sample data, locally saved profile and planning tools work offline. Use the browser's install action or Add to Home Screen where supported. Public lookups need a network connection.
 
+## Real-data proof of concept
+
+Open **Game database** at `/database` to search the imported Classic World graph by name or ID. Try **Green Mushroom Cap** to follow a monster drop to its maps, a quest to its material quantities and rewards, or **Processed Wood** to inspect recipes. Market Sniper and the original field-tool demonstrations remain labeled scenarios. Public character lookup is independent of both.
+
+```sh
+npm run import:data
+npm run data:report
+npm run data:check
+```
+
+The default import replays committed source inputs offline. An explicit `npm run import:data -- --refresh` retrieves the approved endpoints. Inspect graph and coverage changes before publishing. The adapted database is distributed under CC BY-NC-SA 4.0. See the [feasibility decision](docs/FEASIBILITY_REPORT.md), [data model](docs/DATA_MODEL.md), [coverage](docs/DATA_COVERAGE.md) and [asset rights audit](docs/ASSET_LICENSING.md).
+
 ## First milestone
 
 | Section | What works |

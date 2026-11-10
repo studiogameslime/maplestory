@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ArrowLeft, ChevronRight, SlidersHorizontal, Store } from 'lucide-react'
-import { type Listing, stale, valuation } from './domain'
+import { analyzeDemo } from './market-analysis'
+import { type Listing, stale, valuation, assumedFee } from './domain'
 import { useApp } from './state'
 import { demoUrl } from './providers'
 import {
@@ -24,6 +25,7 @@ function ListingCard({
 }) {
   const { lang, num, t, date } = useApp()
   const v = valuation(item)
+  const analysis = analyzeDemo(item, Date.now(), assumedFee)
   const fields = [
     [t('Asking price', 'מחיר מבוקש'), num(item.ask)],
     [
@@ -80,6 +82,36 @@ function ListingCard({
       {detail ? (
         <>
           <dl className="details">
+            <div>
+              <dt>{t('Estimated gross profit', 'רווח גולמי משוער')}</dt>
+              <dd>{analysis.gross === null ? '—' : num(analysis.gross)}</dd>
+            </div>
+            <div>
+              <dt>
+                {t(
+                  'Price volatility · relative standard deviation',
+                  'תנודתיות מחיר · סטיית תקן יחסית',
+                )}
+              </dt>
+              <dd>
+                {analysis.volatility === null
+                  ? '—'
+                  : num(analysis.volatility * 100) + '%'}
+              </dd>
+            </div>
+            <div>
+              <dt>
+                {t(
+                  'Weekly liquidity score / 100',
+                  'ציון נזילות שבועי מתוך 100',
+                )}
+              </dt>
+              <dd>{analysis.liquidity}</dd>
+            </div>
+            <div>
+              <dt>{t('Evidence score / 100', 'ציון ראיות מתוך 100')}</dt>
+              <dd>{analysis.confidence}</dd>
+            </div>
             <div>
               <dt>{t('Seller', 'מוכר')}</dt>
               <dd>{item.seller}</dd>

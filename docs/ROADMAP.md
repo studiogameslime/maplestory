@@ -14,9 +14,11 @@ Acceptance criteria for the first release
 
 ## 2 · Licensed field references
 
-- Select a small licensed drop and quest collection. Record the source page, revision, retrieval timestamp, license and changes per entry. Review data and artwork rights separately.
+- The feasibility prototype imports all eleven Classic Maple Wiki exports plus selected pinned wiki revisions. See [the coverage report](DATA_COVERAGE.md) for measured gaps. Expand the bounded supplemental collection only where the source, build and reuse rights are traceable. Record the source page, revision, retrieval timestamp, license and changes per entry. Review data and artwork rights separately.
 - Retain the difference between confirmed drops, unknown probabilities, older-version estimates and measured Classic World rates. Verify mirrored UI and attribution offline.
 - Offer optional screenshot-assisted local profile entry with review before saving. Keep public search independent of character ownership.
+
+Before broader release, verify additional material and reward quantities against immutable revisions, increase the number of entities with numerical game IDs, and add regression cases for inconsistent builds. Acceptance requires a reproducible graph, zero broken references, updated full-dataset coverage and visible uncertainty in both languages. Original game sprites require express rights for display and offline distribution.
 
 ## 3 · Verified FM observations
 

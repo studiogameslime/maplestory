@@ -10,6 +10,7 @@ import {
 import { Link } from 'react-router-dom'
 import { useApp } from './state'
 import { disabledSources } from './providers'
+import { AssetImage } from './AssetImage'
 
 export function DemoBadge() {
   const { t } = useApp()
@@ -149,7 +150,7 @@ export function SearchBox({
 export function ItemIcon({ art }: { art: string }) {
   return (
     <span className={'item-icon ' + art}>
-      <img src={'/art/' + art + '.png'} alt="" />
+      <AssetImage kind="illustration" id={art} label="" />
     </span>
   )
 }
